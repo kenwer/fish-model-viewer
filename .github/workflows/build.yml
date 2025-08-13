@@ -104,3 +104,5 @@ jobs:
         files: |
           fish-model-viewer.app.zip
           fish-model-viewer.exe.zip
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
